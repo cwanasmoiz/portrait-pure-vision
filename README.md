@@ -36,6 +36,16 @@ npm i
 npm run dev
 ```
 
+For a production-style run behind PM2:
+
+```sh
+# Build static assets
+npm run build
+
+# Start the preview server through PM2
+pm2 start ecosystem.config.cjs
+```
+
 **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).
