@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    allowedHosts: ["octopus-app-oaywp.ondigitalocean.app"],
+    allowedHosts: ["nodejs-1645540-6536692.cloudwaysapps.com"],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
